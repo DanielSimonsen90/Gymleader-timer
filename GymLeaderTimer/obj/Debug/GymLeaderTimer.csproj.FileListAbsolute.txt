@@ -1,0 +1,14 @@
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\GymLeaderTimer.csprojAssemblyReference.cache
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\MainWindow.g.cs
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\App.g.cs
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\GymLeaderTimer_MarkupCompile.cache
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\GymLeaderTimer_MarkupCompile.lref
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\bin\Debug\GymLeaderTimer.exe.config
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\bin\Debug\GymLeaderTimer.exe
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\bin\Debug\GymLeaderTimer.pdb
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\MainWindow.baml
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\GymLeaderTimer.g.resources
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\GymLeaderTimer.Properties.Resources.resources
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\GymLeaderTimer.csproj.GenerateResource.cache
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\GymLeaderTimer.exe
+C:\Users\DanielSimonsen\source\repos\GymLeaderTimer\GymLeaderTimer\obj\Debug\GymLeaderTimer.pdb

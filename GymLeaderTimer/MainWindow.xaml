@@ -1,0 +1,43 @@
+﻿<Window x:Class="GymLeaderTimer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GymLeaderTimer"
+        mc:Ignorable="d"
+        Title="SoulSilver Gym Timer" Height="450" Width="800" Icon="SS Gyms icon.png">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="105*"/>
+            <ColumnDefinition Width="26*"/>
+            <ColumnDefinition Width="174*"/>
+            <ColumnDefinition Width="406*"/>
+            <ColumnDefinition Width="60*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="ChallengersListBox" HorizontalAlignment="Left" Height="327" Margin="10,10,0,0" VerticalAlignment="Top" Width="206" SelectionChanged="ChallengersListBox_SelectionChanged" Grid.ColumnSpan="4"/>
+        <Button x:Name="RegularButton" Content="Regular Gyms" HorizontalAlignment="Left" Margin="68.783,10,0,0" VerticalAlignment="Top" Width="280" Height="51" FontSize="18" FontWeight="Bold" Click="GymType_Clicked" Grid.ColumnSpan="2" Grid.Column="3"/>
+        <Button x:Name="AdvancedButton" Content="Advanced Gyms" HorizontalAlignment="Left" Margin="178.383,10,0,0" VerticalAlignment="Top" Width="280" Height="51" FontSize="18" FontWeight="Bold" Click="GymType_Clicked" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <Button x:Name="RegularGymOne" Content="Gym 1" HorizontalAlignment="Left" Margin="68.783,66,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.ColumnSpan="2" Grid.Column="3"/>
+        <Button x:Name="RegularGymTwo" Content="Gym 2" HorizontalAlignment="Left" Margin="35.383,66,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4"/>
+        <Button x:Name="RegularGymThree" Content="Gym 3" HorizontalAlignment="Left" Margin="68.783,117,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.ColumnSpan="2" Grid.Column="3"/>
+        <Button x:Name="RegularGymFour" Content="Gym 4" HorizontalAlignment="Left" Margin="35.383,117,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4"/>
+        <Button x:Name="RegularGymFive" Content="Gym 5" HorizontalAlignment="Left" Margin="68.783,176,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.ColumnSpan="2" Grid.Column="3"/>
+        <Button x:Name="RegularGymSix" Content="Gym 6" HorizontalAlignment="Left" Margin="35.383,176,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4"/>
+        <Button x:Name="RegularGymSeven" Content="Gym 7" HorizontalAlignment="Left" Margin="68.783,227,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.ColumnSpan="2" Grid.Column="3"/>
+        <Button x:Name="RegularGymEight" Content="Gym 8" HorizontalAlignment="Left" Margin="35.383,227,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4"/>
+        <Button x:Name="AdvancedGymOne" Content="Gym 1" HorizontalAlignment="Left" Margin="178.383,66,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4"/>
+        <Button x:Name="AdvancedGymTwo" Content="Gym 2" HorizontalAlignment="Left" Margin="320.383,66,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <Button x:Name="AdvancedGymThree" Content="Gym 3" HorizontalAlignment="Left" Margin="178.383,117,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4"/>
+        <Button x:Name="AdvancedGymFour" Content="Gym 4" HorizontalAlignment="Left" Margin="320.383,117,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <Button x:Name="AdvancedGymFive" Content="Gym 5" HorizontalAlignment="Left" Margin="178.383,176,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4"/>
+        <Button x:Name="AdvancedGymSix" Content="Gym 6" HorizontalAlignment="Left" Margin="320.383,176,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <Button x:Name="AdvancedGymSeven" Content="Gym 7" HorizontalAlignment="Left" Margin="178.383,227,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4"/>
+        <Button x:Name="AdvancedGymEight" Content="Gym 8" HorizontalAlignment="Left" Margin="320.383,227,0,0" VerticalAlignment="Top" Width="138" Height="46" FontSize="16" Click="Gym_Clicked" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="ChallengerTextBox" Text="Challenger IGN" HorizontalAlignment="Left" Height="59" Margin="68.783,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="561" FontSize="20" Grid.ColumnSpan="3" Grid.Column="3"/>
+        <Button x:Name="StartStopButton" Content="Start Time" HorizontalAlignment="Left" Margin="68.783,342,0,0" VerticalAlignment="Top" Width="280" Height="67" FontSize="22" Click="StartButton_Click" Grid.ColumnSpan="2" Grid.Column="3"/>
+        <ListBox x:Name="MinuteListBox" HorizontalAlignment="Left" Height="67" Margin="178.383,342,0,0" VerticalAlignment="Top" Width="276" FontSize="24" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <Button Content="Remove Challenger" HorizontalAlignment="Left" Margin="10,342,0,0" VerticalAlignment="Top" Width="206" Height="67" FontSize="22" Click="RemoveChallengerButton_Click" Grid.ColumnSpan="4"/>
+
+    </Grid>
+</Window>
